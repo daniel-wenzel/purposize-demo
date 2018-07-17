@@ -99,8 +99,6 @@ purposes:
     customers:
       - eMail
       - postalAddress
-  compatibleWith:
-    - MONTHLY_DELIVERY
 - name: FULFILLMENT
   relevantFields:
     customers:
@@ -192,6 +190,7 @@ purposes:
   catch(e) {
     console.log(e)
   }
+  await waitForPresentation()
   await showAndWait(`await bob.removePurpose('NEWSLETTER')`)
   await bob.removePurpose('NEWSLETTER')
   await showSQL('SELECT * FROM customers')
