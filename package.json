@@ -1,0 +1,28 @@
+{
+  "name": "purposize-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demoSQL.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-wenzel/purposize-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-wenzel/purposize-demo/issues"
+  },
+  "homepage": "https://github.com/daniel-wenzel/purposize-demo#readme",
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "cli-highlight": "^2.0.0",
+    "mysql2": "^1.5.3",
+    "prompt": "^1.0.0",
+    "purposize": "^1.1.0",
+    "sequelize": "^4.38.0"
+  }
+}
